@@ -1,0 +1,60 @@
+COMMAND: movie-this finding nemo
+RETURNS:
+
+
+--- MOVIE INFO ---
+Title: Finding Nemo
+Plot: After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.
+Release year: 2003
+IMDB rating: 8.1
+Rotten Tomatoes rating: 99%
+Produced in: USA
+Language: English
+Lead actors include: Albert Brooks, Ellen DeGeneres, Alexander Gould, Willem Dafoe
+
+---***---***---***---
+
+COMMAND: my-tweets
+RETURNS:
+
+
+--- TWEETS ---
+Thu Aug 24 21:39:18 +0000 2017
+Tweeting Heidi: p30 Heidi brings new meaning (old meaning?) to the phrase "making a bed"!
+--------
+Thu Aug 24 21:37:47 +0000 2017
+Tweeting Heidi: p26 Dete never wanted to care for Heidi. Then leaving the girl in the care of her grandpa she gets criticized! Can't win.
+--------
+Thu Aug 24 21:34:30 +0000 2017
+Tweeting Heidi: p18 goat-Peter, at 11, seems to be the breadwinner for a household of three. This is a very grim children's book so far!
+--------
+Thu Aug 24 21:33:09 +0000 2017
+Tweeting Heidi: p16 Dete hasn't been described as Heidi's aunt once. I'm not sure she loved her sister, her mother, or her niece.
+--------
+
+---***---***---***---
+
+COMMAND: spotify-this-song poker face
+RETURNS:
+
+
+--- SONG INFO ---
+Artist: Lady Gaga
+Name: Poker Face
+Preview url: null
+Album: The Fame
+
+---***---***---***---
+
+COMMAND: spotify-this-song toxic
+RETURNS:
+
+
+--- SONG INFO ---
+Artist: Britney Spears
+Name: Toxic
+Preview url: https://p.scdn.co/mp3-preview/8465386fd6ce10f7ae3bd9c907825d7cb955ade0?cid=e47a40e6a86e46938cbd62abcc41d558
+Album: In The Zone
+
+---***---***---***---
+
