@@ -130,8 +130,12 @@ function callMovie() {
 	// random movie query
 	// movie-this,10 Things I Hate About You
 	// replace spaces with plus signs in movie name
-	movieName = input.trim().split(" ").join("+");
-
+	var movieName = input.trim().split(" ").join("+");
+	var empty = false;
+	if (!movieName) {
+		movieName = "Mr+Nobody";
+		empty = true;
+	}
 
 	// Then run a request to the OMDB API with the movie specified
 	var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=" + keys.OMDBKeys.api_key;
@@ -142,6 +146,9 @@ function callMovie() {
 		}
 		var movie = JSON.parse(body);
 		var output = "\n\n";
+		if (empty) {
+			output += "\nIf you haven't watched 'Mr. Nobody,' then you should.\nIt's on Netflix!\n";
+		}
 		output += "\n--- MOVIE INFO ---";
 		output += "\nTitle: " + movie.Title;
 		output += "\nPlot: " + movie.Plot;
@@ -169,7 +176,10 @@ function addLogEntry(output) {
 	var formatInput  = command.trim().replace(/,/g, "");
 	formatInput += input.trim().replace(/,/g, "");
 	// write
-	fs.appendFile('log.txt', "COMMAND: " + formatInput + "\nRETURNS:" + output + "---***---***---***---\n\n", 'utf8', function (err) {
+	fs.appendFile('log.txt',
+		"COMMAND: " + formatInput + "\nRETURNS:" + output + "---***---***---***---\n\n",
+		'utf8',
+		function (err) {
 		if (err) return console.log(err);
 	});
 }

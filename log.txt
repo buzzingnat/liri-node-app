@@ -58,3 +58,38 @@ Album: In The Zone
 
 ---***---***---***---
 
+COMMAND: movie-this
+RETURNS:
+
+
+If you haven't watched 'Mr. Nobody,' then you should.
+It's on Netflix!
+
+--- MOVIE INFO ---
+Title: Mr. Nobody
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Release year: 2009
+IMDB rating: 7.9
+Rotten Tomatoes rating: 64%
+Produced in: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Lead actors include: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+---***---***---***---
+
+COMMAND: movie-this finding dory
+RETURNS:
+
+
+--- MOVIE INFO ---
+Title: Finding Dory
+Plot: The friendly but forgetful blue tang fish, Dory, begins a search for her long-lost parents, and everyone learns a few things about the real meaning of family along the way.
+Release year: 2016
+IMDB rating: 7.4
+Rotten Tomatoes rating: 94%
+Produced in: USA
+Language: English, Indonesian
+Lead actors include: Ellen DeGeneres, Albert Brooks, Ed O'Neill, Kaitlin Olson
+
+---***---***---***---
+
